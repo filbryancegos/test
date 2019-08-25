@@ -1,0 +1,49 @@
+@import "colors";
+
+
+/*load vendor*/
+@import 'vendor/bootstrap.scss';
+
+
+/*load abstract*/
+@import 'abstract/variables';
+
+
+/*load base*/
+@import 'base/utilities';
+@import 'base/typography';
+
+/*load mixins*/
+@import 'mixins/mixins_general';
+//@import 'mixins/mixins_breakpoints';
+
+/*load animate*/
+@import 'animate/animate';
+
+/*load components*/
+@import 'components/extend';
+@import 'components/menu';
+
+/*load sections*/
+@import 'sections/header';
+ @import 'sections/home';
+ @import 'sections/about';
+ @import 'sections/contact';
+ @import 'sections/footer';
+
+/*load responsive*/
+@import 'responsive/media';
+
+#randomInt {
+  background-color: $main;
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+}
+
+#randomRange {
+  background-color: $secondary;
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+}
